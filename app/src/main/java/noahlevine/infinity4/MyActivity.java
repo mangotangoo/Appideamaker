@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import java.util.Random;
 
-import static java.lang.Thread.sleep;
+
 
 public class MyActivity extends Activity {
 
@@ -27,29 +27,11 @@ public class MyActivity extends Activity {
         final TextView firstTextView = (TextView) findViewById(R.id.textView);
 
 
-        final ImageButton firstButton = (ImageButton) findViewById(R.id.firstButton);
+        ImageButton firstButton = (ImageButton) findViewById(R.id.firstButton);
 
         firstButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                firstTextView.setText("Thinking of new ideas....");
-                firstTextView.setText(".");
-                try {
-                    sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                firstTextView.setText(".");
-                try {
-                    sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                    firstTextView.setText(".");
-                    try {
-                        sleep(500);
-                    } catch (InterruptedException e1) {
-                        e1.printStackTrace();
-                    }
 
 
                     //first set of random words
@@ -64,7 +46,7 @@ public class MyActivity extends Activity {
                 }
 
 
-            }
+
         });
     }
 
