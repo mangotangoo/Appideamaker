@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Infinity4</string>
+    <string name="app_name">Alpha 1.0</string>
     <string name="hello_world">App Idea Maker</string>
     <string name="action_settings">Settings</string>
     <string name="button_1_text">Idea!</string>
-    <string name="text">Infinity</string>
-    <array name= "randy">(firstwords[new Random().nextInt(firstwords.length)]);
-    <array name= "rando">(secondwords[new Random().nextInt(secondwords.length)]);
-    <string[]  firstwords =  {"Awesome","Queen","King","Cow","Plum","Pear","Orange","Apple","Musical","Music","Electric","TV","Football","Desk","Soccer","Basketball","Science", "Math","Teacher","School","Money","Movie","Light Saber","Light","Garbage","Sassy","Wall","Hat","Pants","Shirt","Fruit", "Horse" , "Monkey", "Computer", "Tablet", "Phone", "Dog", "Cat", "Banana", "Hair", "Mouse", "Alien" };
-    <string[] secondwords = {"","Painter","Trivia","Robber","Suggestor","Collector","Clock","Pass","Brawl","Randomizer","Rater","Destroyer" ,"Fight", "Attack", "Distracter", "Enhancer", "Social media app", "Mystery", "Identifiyer", "Ripeness", "Compare", "Measurer", "Translator"};
+    <string-array name="randy">
+        <item>Awesome</item>
+        <item>Queen</item>
+        <item>King</item>
+        </string-array>
+
+<string-array name="rando">
+<item>Painter</item>
+<item>Trivia</item>
+<item>Robber</item>
+</string-array>
+    </resources>
+
+
+
+
