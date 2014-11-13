@@ -36,28 +36,28 @@ public class MyActivity extends Activity {
                     public void onClick (View view) {
                 firstTextView.setText("Thinking of new ideas....");
 
-                System.out.println(".");
+                firstTextView.setText(".");
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                System.out.println(".");
+                firstTextView.setText(".");
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
-                }System.out.println(".");
+                    firstTextView.setText(".");
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
-                }System.out.println(".");
+                    firstTextView.setText(".");
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
-                }System.out.println(".");
+                    firstTextView.setText(".");
                 try {
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
