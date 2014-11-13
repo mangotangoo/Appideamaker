@@ -15,7 +15,6 @@
         android:text="@string/hello_world"
         android:layout_width="match_parent"
         android:textSize="40sp"
-        android:layout_centerHorizontal="true"
         android:id="@+id/textView"
         android:layout_height="wrap_content" />
 
@@ -26,9 +25,8 @@
         android:text="@string/button_1_text"
         android:id="@+id/firstButton"
         android:hapticFeedbackEnabled="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:background="@drawable/bulb"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="" />
 
 </LinearLayout>
