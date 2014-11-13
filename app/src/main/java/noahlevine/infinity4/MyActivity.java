@@ -27,11 +27,11 @@ public class MyActivity extends Activity {
         final TextView firstTextView = (TextView) findViewById(R.id.textView);
 
 
-        ImageButton firstButton = (ImageButton) findViewById(R.id.firstButton);
+        final ImageButton firstButton = (ImageButton) findViewById(R.id.firstButton);
 
         firstButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+             @Override
+            final public void onClick(View view) {
 
 
                     //first set of random words
