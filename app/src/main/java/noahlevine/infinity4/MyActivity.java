@@ -10,7 +10,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.util.Random;
@@ -27,7 +27,7 @@ public class MyActivity extends Activity {
         final TextView firstTextView = (TextView) findViewById(R.id.textView);
 
 
-        final Button firstButton = (Button) findViewById(R.id.firstButton);
+        final ImageButton firstButton = (ImageButton) findViewById(R.id.firstButton);
 
         firstButton.setOnClickListener(new View.OnClickListener() {
             @Override

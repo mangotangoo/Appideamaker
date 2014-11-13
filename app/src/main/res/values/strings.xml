@@ -10,12 +10,57 @@
         <item>Awesome</item>
         <item>Queen</item>
         <item>King</item>
-        </string-array>
+        <item>Space</item>
+        <item>Monkey</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Super</item>
+        <item>Alien</item>
+        <item>Ace</item>
+        <item>Computer</item>
+        <item>Techno</item>
+        <item>Pig</item>
+        <item>American</item>
+        <item>Airplane</item>
+        <item>Gun</item>
+        <item>Brick</item>
+        <item>Disco</item>
+        <item>Friendly</item>
+        <item>World</item>
+        <item>Apple</item>
+        <item>Zebra</item>
+        <item>Name</item>
+        <item>Number</item>
+        <item>Whale</item>
+</string-array>
 
 <string-array name="rando">
-<item>Painter</item>
-<item>Trivia</item>
-<item>Robber</item>
+   <item>Painter</item>
+   <item>Trivia</item>
+   <item>Robber</item>
+    <item>Game</item>
+    <item>Cross</item>
+    <item>War</item>
+    <item>Tale</item>
+    <item>Brick</item>
+    <item>Craft</item>
+    <item>Invaders</item>
+    <item>Man</item>
+    <item>Attack</item>
+    <item>Battle</item>
+    <item>Breaker</item>
+    <item>Fight</item>
+    <item>Flight</item>
+    <item>Trap</item>
+    <item>Run</item>
+    <item>Trash</item>
+    <item>Desk</item>
+    <item>Science</item>
+    <item>App</item>
+    <item>Wizard</item>
+    <item>Star</item>
+
+
 </string-array>
     </resources>
 

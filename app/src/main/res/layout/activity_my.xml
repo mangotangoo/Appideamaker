@@ -20,13 +20,14 @@
 
 
     <ImageButton
-        android:layout_width="134dp"
+        android:layout_width="167dp"
         android:layout_height="161dp"
         android:text="@string/button_1_text"
         android:id="@+id/firstButton"
         android:hapticFeedbackEnabled="true"
         android:background="@drawable/bulb"
         android:layout_gravity="center_horizontal"
-        android:contentDescription="" />
+        android:contentDescription=""
+        android:layout_weight="0.13"/>
 
 </LinearLayout>
