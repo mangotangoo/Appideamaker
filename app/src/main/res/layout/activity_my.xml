@@ -32,7 +32,7 @@
         android:hapticFeedbackEnabled="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/bulb_PNG1247"
+        android:background="@drawable/bulb"
         android:layout_gravity="center_horizontal" />
 
 </LinearLayout>
