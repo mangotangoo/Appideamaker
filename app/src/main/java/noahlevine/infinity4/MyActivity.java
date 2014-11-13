@@ -4,6 +4,10 @@
  * "Awesome","Queen","King","Cow","Plum","Pear","Orange","Apple","Musical","Music","Electric","TV","Football","Desk","Soccer","Basketball","Science", "Math","Teacher","School","Money","Movie","Light Saber","Light","Garbage","Sassy","Wall","Hat","Pants","Shirt","Fruit", "Horse" , "Monkey", "Computer", "Tablet", "Phone", "Dog", "Cat", "Banana", "Hair", "Mouse", "Alien" };
    {"","Painter","Trivia","Robber","Suggestor","Collector","Clock","Pass","Brawl","Randomizer","Rater","Destroyer" ,"Fight", "Attack", "Distracter", "Enhancer", "Social media app", "Mystery", "Identifiyer", "Ripeness", "Compare", "Measurer", "Translator"};
 
+
+
+
+
  */
 package noahlevine.infinity4;
 
@@ -19,9 +23,8 @@ import java.util.Random;
 import static java.lang.Thread.sleep;
 
 public class MyActivity extends Activity {
-//static void main(String[] args) throws InterruptedException {
 
-    @Override
+@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
@@ -35,7 +38,6 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view) {
                 firstTextView.setText("Thinking of new ideas....");
-
                 firstTextView.setText(".");
                 try {
                     sleep(500);
@@ -53,6 +55,7 @@ public class MyActivity extends Activity {
                     } catch (InterruptedException e1) {
                         e1.printStackTrace();
                     }
+
 
                     //first set of random words
                     String[] firstWords = getResources().getStringArray(R.array.randy);
