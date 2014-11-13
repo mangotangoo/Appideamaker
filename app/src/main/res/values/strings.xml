@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Alpha 1.0</string>
+    <string name="app_name">Ideal</string>
     <string name="hello_world">App Idea Maker</string>
     <string name="action_settings">Settings</string>
     <string name="button_1_text">Idea!</string>
+
     <string-array name="randy">
         <item>Awesome</item>
         <item>Queen</item>

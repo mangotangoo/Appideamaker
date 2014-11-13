@@ -16,10 +16,12 @@ import android.widget.TextView;
 
 import java.util.Random;
 
-public class MyActivity extends Activity {
-    //static void main(String[] args) throws InterruptedException {
+import static java.lang.Thread.sleep;
 
-        @Override
+public class MyActivity extends Activity {
+//static void main(String[] args) throws InterruptedException {
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
@@ -27,28 +29,27 @@ public class MyActivity extends Activity {
         final TextView firstTextView = (TextView) findViewById(R.id.textView);
 
 
-
         final Button firstButton = (Button) findViewById(R.id.firstButton);
 
-         firstButton.setOnClickListener(new View.OnClickListener() {
+        firstButton.setOnClickListener(new View.OnClickListener() {
             @Override
-                    public void onClick (View view) {
+            public void onClick(View view) {
                 firstTextView.setText("Thinking of new ideas....");
 
                 firstTextView.setText(".");
                 try {
-                    Thread.sleep(500);
+                    sleep(500);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
                 firstTextView.setText(".");
                 try {
-                    Thread.sleep(500);
+                    sleep(500);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                     firstTextView.setText(".");
                     try {
-                        Thread.sleep(500);
+                        sleep(500);
                     } catch (InterruptedException e1) {
                         e1.printStackTrace();
                     }
@@ -66,11 +67,12 @@ public class MyActivity extends Activity {
 
 
             }
+        });
+    }
 
 
-
-         //@Override
-         public boolean onCreateOptionsMenu(Menu menu) {
+    //@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.my, menu);
         return true;
@@ -78,16 +80,16 @@ public class MyActivity extends Activity {
 
     //@Override
     //public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-       // int id = item.getItemId();
-      //  if (id == R.id.action_settings) {
-        //    return true;
-      //  }
-      //  return super.onOptionsItemSelected(item);
+    // Handle action bar item clicks here. The action bar will
+    // automatically handle clicks on the Home/Up button, so long
+    // as you specify a parent activity in AndroidManifest.xml.
+    // int id = item.getItemId();
+    //  if (id == R.id.action_settings) {
+    //    return true;
+    //  }
+    //  return super.onOptionsItemSelected(item);
     //}
-});
-
-        }
 }
+
+
+
