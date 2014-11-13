@@ -10,11 +10,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import java.util.Scanner;
-import java.util.Random;
-import static java.lang.Math.*;
-import java.util.Arrays;
-import static java.lang.System.out;
 
 
 public class MyActivity extends Activity {
@@ -48,59 +43,15 @@ public class MyActivity extends Activity {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                     firstTextView.setText(".");
-                try {
-                    Thread.sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                    firstTextView.setText(".");
-                try {
-                    Thread.sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                    firstTextView.setText(".");
-                try {
-                    Thread.sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    try {
+                        Thread.sleep(500);
+                    } catch (InterruptedException e1) {
+                        e1.printStackTrace();
+                    }
                 }
-                firstTextView.setText(randy + " " + rando);
-
-              System.out.println(randy + " " + rando);
-
-            }
 
 
-
-
-
-        });
-
-
-
-
-
-
-
-
-
-
-
-
-            String[]  firstwords =  {"Awesome","Queen","King","Cow","Plum","Pear","Orange","Apple","Musical","Music","Electric","TV","Football","Desk","Soccer","Basketball","Science", "Math","Teacher","School","Money","Movie","Light Saber","Light","Garbage","Sassy","Wall","Hat","Pants","Shirt","Fruit", "Horse" , "Monkey", "Computer", "Tablet", "Phone", "Dog", "Cat", "Banana", "Hair", "Mouse", "Alien" };
-
-            String[] secondwords = {"","Painter","Trivia","Robber","Suggestor","Collector","Clock","Pass","Brawl","Randomizer","Rater","Destroyer" ,"Fight", "Attack", "Distracter", "Enhancer", "Social media app", "Mystery", "Identifiyer", "Ripeness", "Compare", "Measurer", "Translator"};
-
-
-
-
-
-
-
-
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+                public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.my, menu);
         return true;

@@ -8,3 +8,5 @@
     <string name="text">Infinity</string>
     <array name= "randy">(firstwords[new Random().nextInt(firstwords.length)]);
     <array name= "rando">(secondwords[new Random().nextInt(secondwords.length)]);
+    <string[]  firstwords =  {"Awesome","Queen","King","Cow","Plum","Pear","Orange","Apple","Musical","Music","Electric","TV","Football","Desk","Soccer","Basketball","Science", "Math","Teacher","School","Money","Movie","Light Saber","Light","Garbage","Sassy","Wall","Hat","Pants","Shirt","Fruit", "Horse" , "Monkey", "Computer", "Tablet", "Phone", "Dog", "Cat", "Banana", "Hair", "Mouse", "Alien" };
+    <string[] secondwords = {"","Painter","Trivia","Robber","Suggestor","Collector","Clock","Pass","Brawl","Randomizer","Rater","Destroyer" ,"Fight", "Attack", "Distracter", "Enhancer", "Social media app", "Mystery", "Identifiyer", "Ripeness", "Compare", "Measurer", "Translator"};
