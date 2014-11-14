@@ -32,7 +32,7 @@ public class MyActivity extends Activity {
    final String[] firstWords = getResources().getStringArray(R.array.randy);
    final String[] secondWords = getResources().getStringArray(R.array.rando);
 
-    firstButton.setOnClickListener(new View.OnClickListener()  {
+    firstButton.setOnClickListener(new View.OnClickListener() {
              @Override
             final public void onClick(View view) {
 
