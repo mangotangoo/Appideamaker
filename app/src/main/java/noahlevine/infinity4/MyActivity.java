@@ -29,17 +29,20 @@ public class MyActivity extends Activity {
 
         final ImageButton firstButton = (ImageButton) findViewById(R.id.firstButton);
 
-        firstButton.setOnClickListener(new View.OnClickListener() {
+   final String[] firstWords = getResources().getStringArray(R.array.randy);
+   final String[] secondWords = getResources().getStringArray(R.array.rando);
+
+    firstButton.setOnClickListener(new View.OnClickListener() {
              @Override
             final public void onClick(View view) {
 
 
                     //first set of random words
-                    String[] firstWords = getResources().getStringArray(R.array.randy);
-                    String random = firstWords[new Random().nextInt()];
+
+                    String random = firstWords[new Random ().nextInt(firstWords.length)];
                     //second set of randomized words
-                    String[] secondWords = getResources().getStringArray(R.array.rando);
-                    String randomer = secondWords[new Random().nextInt()];
+
+                    String randomer = secondWords[new Random ().nextInt(firstWords.length)];
 
                     firstTextView.setText(random + " " + randomer);
 
