@@ -11,7 +11,8 @@
     android:background="#a5000000"
     android:weightSum="1"
     android:id="@+id/layout"
-    style="@android:style/Holo.ButtonBar">
+    android:theme="@style/Light">
+
 
 
     <ImageButton
@@ -42,8 +43,6 @@
         android:id="@+id/textView"
         android:layout_height="wrap_content"
         android:textColor="#fffffff8"
-        android:password="false"
-        android:phoneNumber="false"
         android:longClickable="true"/>
 
 </LinearLayout>
