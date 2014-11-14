@@ -11,7 +11,7 @@
     android:background="#a5000000"
     android:weightSum="1"
     android:id="@+id/layout"
-    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+    android:theme="@style/Theme.AppCompat.Light">
 
 
 
