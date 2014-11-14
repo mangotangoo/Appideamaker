@@ -11,13 +11,13 @@
     android:background="#a5000000"
     android:weightSum="1"
     android:id="@+id/layout"
-    android:theme="@style/Light">
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
 
 
     <ImageButton
-        android:layout_width="260dp"
-        android:layout_height="210dp"
+        android:layout_width="290dp"
+        android:layout_height="250dp"
         android:text="@string/button_1_text"
         android:id="@+id/firstButton"
         android:hapticFeedbackEnabled="true"

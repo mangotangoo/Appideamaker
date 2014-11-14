@@ -6,8 +6,8 @@
 */
 package noahlevine.infinity4;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ImageButton;
@@ -17,7 +17,7 @@ import java.util.Random;
 
 
 
-public class MyActivity extends Activity {
+public class MyActivity extends ActionBarActivity {
 
 @Override
     protected void onCreate(Bundle savedInstanceState) {
