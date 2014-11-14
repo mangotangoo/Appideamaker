@@ -32,17 +32,17 @@ public class MyActivity extends Activity {
    final String[] firstWords = getResources().getStringArray(R.array.randy);
    final String[] secondWords = getResources().getStringArray(R.array.rando);
 
-    firstButton.setOnClickListener(new View.OnClickListener() {
+    firstButton.setOnClickListener(new View.OnClickListener()  {
              @Override
             final public void onClick(View view) {
 
 
                     //first set of random words
 
-                    String random = firstWords[new Random ().nextInt(firstWords.length)];
+                    String random = firstWords[new Random ().nextInt(firstWords.length -1)];
                     //second set of randomized words
 
-                    String randomer = secondWords[new Random ().nextInt(firstWords.length)];
+                    String randomer = secondWords[new Random ().nextInt(firstWords.length -1)];
 
                     firstTextView.setText(random + " " + randomer);
 
